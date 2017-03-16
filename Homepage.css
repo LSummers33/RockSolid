@@ -1,0 +1,199 @@
+p, .service-item li {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 27px;
+}
+p .bold {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #4A4A4A;
+}
+h1 {
+  font-size: 500%;
+  font-family:'Raleway', sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 1px rgba(0,0,0,0.5);
+  line-height: 74px;
+  text-transform: uppercase;
+  margin: none; 
+}
+p .subheader {
+  font-size: 120%;
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: 0px 1px rgba(0,0,0,0.5);
+  line-height: 21px;
+  margin: none;
+}
+h2 {
+  font-size: 175%;
+  font-family:'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  color: #4A4A4A;
+  line-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 3;
+  text-align: center;
+}
+h3 {
+  font-size: 110%;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1C6E8C;
+  letter-spacing: 1.35px;
+}
+.right-align {
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  width: 97vw;
+  margin: 5 30 5 0;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  padding: 5px;
+}
+.nav-item {
+  /*display: inline-flex;*/
+  float: right;
+  font-size: 18px;
+  padding: 0 8;
+  vertical-align: center;
+}
+.menu li a {
+    color: #4A4A4A;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+  background-image: linear-gradient( to left, rgba(33,81,126, .85), rgba(56,80,140, .85)), 
+  url("hero_mountainBW.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 30% 100%;
+}
+#title {
+  text-align: left;
+  min-height: 100;
+  padding-left: 15px;
+  width: 50%;
+}
+.consulting-services {
+  display: flex;
+  flex-flow: column;
+  background-image: url("Blueprintpattern_grey.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+.text-container {
+  padding: 30px 0px;
+  width: 70%;
+  margin: auto;
+}
+#services-list {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.service-item {
+  padding: none;
+  width: 30%;
+}
+.service-item ul {
+  list-style-type: none;
+  padding-left:0;
+}
+.service-item li {
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .menu {
+    justify-content: center;
+    padding: 5px;
+  }
+  .container-all {
+    display: flex;
+    flex-wrap: wrap;
+    width: 97vw;
+    padding: 10 20 0 20; 
+  }
+  .text-container {
+    /*width: 100vw;*/
+    padding: 10 20 0 10;
+  }
+  .hero-img {
+    width: 97vw;
+    height: 30vh;
+  }
+  #title {
+    text-align: center;
+  }
+  h1 {
+    font-size: 200%;
+    line-height: 27px;
+  }
+  .header-info {
+    min-height: 200px;
+  }
+  #services-list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+  .service-item {
+  padding: 5px;
+  width: 100%;
+  }
+}  
+
+/*@media screen and (min-width: 980px) Desktop{
+  body {
+    background: red;
+  }
+}
+@media screen  and (max-width: 979px) Tablet {
+  body {
+    background: blue;
+  }
+}
+@media screen and (max-width: 500px) Mobile {
+  body {
+    background: green;
+  }
+}
+*/
+/*.information h1 {
+  font-family: sans-serif;
+  font-size: 5.9vw;*/
+}
+/*  .fill {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden
+}
+.fill img {
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%
+}*/
