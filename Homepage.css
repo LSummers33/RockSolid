@@ -81,7 +81,7 @@ h3 {
   width: 100%;
   height: 60vh;
   background-image: linear-gradient( to left, rgba(33,81,126, .85), rgba(56,80,140, .85)), 
-  url("hero_mountainBW.png");
+  url("hero_mountainBW_small.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
