@@ -123,7 +123,9 @@ h3 {
   padding-left:0;
 }
 .service-item li {
-  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #D0CCD0;
 }
 #contact-section {
   width: 70%;
